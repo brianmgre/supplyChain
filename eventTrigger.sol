@@ -6,7 +6,7 @@ contract ItemManager {
     struct S_Item {
         string _identifier;
         uint256 _itemPrice;
-        ItemManger.SupplyChainState _state;
+        ItemManager.SupplyChainState _state;
     }
 
     mapping(uint256 => S_Item) public items;
